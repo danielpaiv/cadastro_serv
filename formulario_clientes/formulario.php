@@ -181,6 +181,11 @@
     <button>
         <a href="sair.php">sair</a>
     </button>
+
+    <button>
+        <a href="formulario-usuarios.php">Voltar</a>
+    </button>
+
     <div class="box">
         <form action="formulario.php" method="POST">
             <fieldset>

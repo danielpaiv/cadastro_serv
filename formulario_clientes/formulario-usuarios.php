@@ -123,16 +123,34 @@
         {
             background-image: linear-gradient(to right,rgb(43, 43, 18), rgb(173, 220, 20));
         }
+
+        a{
+            text-decoration: none;
+        }
+
         @media screen and (max-width: 400px){
             .box{
                 width: 80%;
                 top: 20px;
             }
         }
+
+        @media screen and (max-width: 400px){
+            body,h1,h2{
+                text-align: center;
+            }
+        }
+
         @media screen and (max-width: 720px){
             .box{
                 width: 80%;
                 top: 300px;
+            }
+        }
+
+        @media screen and (max-width: 720px){
+            body,h1,h2{
+                text-align: center;
             }
         }
        
@@ -142,11 +160,13 @@
 </head>
 <body>
 
-    <center><h1>Olá usuário !</h1></center>
+    <center></center>
+    <h1>Olá usuário !</h1>
     
     <br><br><br><br><br>
-    
-    <center><h2>Sistema de registro de fucionário.</h2></center>
+
+    <center></center>
+    <h2>Sistema de registro de fucionário.</h2>
     
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <div class="button">
