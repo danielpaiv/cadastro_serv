@@ -141,9 +141,13 @@
     </style>
 </head>
 <body>
-    <h1>Olá usuário !</h1>
+
+    <center><h1>Olá usuário !</h1></center>
+    
     <br><br><br><br><br>
-    <h2>Sistema de registro de fucionário.</h2>
+    
+    <center><h2>Sistema de registro de fucionário.</h2></center>
+    
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <div class="button">
         <a href="formulario.php">Acesse o sistema aqui</a>

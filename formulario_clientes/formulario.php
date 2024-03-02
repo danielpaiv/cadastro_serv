@@ -156,6 +156,11 @@
         border: none;
         padding: 7px; 
         text-decoration: none;
+        border: 3px solid dodgerblue;
+    }
+    a{
+        color: white;
+        text-decoration: none;
     }
     
     @media screen and (max-width: 400px) {
