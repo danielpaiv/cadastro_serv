@@ -152,7 +152,7 @@
         background-image: linear-gradient(to right,rgb(27, 20, 220), rgb(102, 14, 184));
     }
     button{
-        background-color: red;
+        background-color: rgba(0, 0, 0, 0.6);
         border: none;
         padding: 7px; 
         text-decoration: none;
