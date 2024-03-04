@@ -157,6 +157,8 @@
         padding: 7px; 
         text-decoration: none;
         border: 3px solid dodgerblue;
+        letter-spacing: 3px;
+        
     }
     a{
         color: white;
