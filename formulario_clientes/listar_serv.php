@@ -9,7 +9,7 @@
 
     $result = $conexao->query($sql);
 
-    print_r($result);
+    //print_r($result);
 
 ?>
 

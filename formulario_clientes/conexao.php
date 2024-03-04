@@ -12,5 +12,5 @@
    }
    else
    {
-       echo "conexao efetuada com sucesso";
+      // echo "conexao efetuada com sucesso";
    }
