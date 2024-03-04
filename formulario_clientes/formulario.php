@@ -153,12 +153,15 @@
     }
     button{
         background-color: rgba(0, 0, 0, 0.6);
+    }
+    .button{
+        position: absolute;
+        padding: 6px;
+        background-color: rgba(0, 0, 0, 0.6);
         border: none;
-        padding: 7px; 
         text-decoration: none;
         border: 3px solid dodgerblue;
         letter-spacing: 3px;
-        
     }
     a{
         color: white;
@@ -180,13 +183,14 @@
 
 </head>
 <body>
-    <button>
-        <a href="sair.php">sair</a>
-    </button>
-
-    <button>
-        <a href="formulario-usuarios.php">Voltar</a>
-    </button>
+    <div class="button">
+        <button >
+            <a href="sair.php">sair</a>
+        </button>
+        <button >
+            <a href="formulario-usuarios.php">Voltar</a>
+        </button>
+    </div>
 
     <div class="box">
         <form action="formulario.php" method="POST">
